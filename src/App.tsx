@@ -21,7 +21,7 @@ function App() {
         <span className={isMain ? "Price" : "Price second"}>8.99 FCFA</span>
         <span className="PriceTo">to</span>
         <span className="TillID">123&nbsp;456</span>
-        <button type="button" onClick={toggleClass}> Pay </button>
+        <button tabIndex={0} type="button" onClick={toggleClass} autoFocus> Pay </button>
       </header>
     </div>
   );
