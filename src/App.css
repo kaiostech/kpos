@@ -4,18 +4,19 @@
 
 .App-header {
   background-color: #ffffff;
-  min-height: 100vh;
+  width: 240px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(24, 23, 23);
+  margin: auto;
 }
 
 .App-header h1 {
   width: 22rem;
-  height: 5.4rem;
   margin: 2.6rem 1rem 2.2rem;
   font-family: OpenSans;
   font-size: 2rem;
@@ -31,7 +32,6 @@
 .App-header h2 {
   width: 22rem;
   height: 1.7rem;
-  margin: 2.2rem 1rem 4.7rem;
   font-family: OpenSans;
   font-size: 1.2rem;
   font-weight: 600;
@@ -46,7 +46,6 @@
 .Price{
   width: 22rem;
   height: 3.3rem;
-  margin: 3.8rem 1rem 1.5rem;
   font-family: OpenSans;
   font-size: 2.4rem;
   font-weight: bold;
