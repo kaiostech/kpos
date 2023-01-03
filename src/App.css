@@ -87,7 +87,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: var(--gs-60);
-  background: url('./action-places-store.png') no-repeat;
+  background: url('./action-places-store@3x.png') no-repeat;
   background-position: 0 0.3rem;
   background-size: 2rem;
 }
