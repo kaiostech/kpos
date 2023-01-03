@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>122269A5-1A23-45BF-83FF-8038EB9A5ACC</title>
+    <g id="Merchant-Acceptance-Device-Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Merchant_Payment_Success" transform="translate(-96.000000, -76.000000)">
+            <g id="ic_tick" transform="translate(96.000000, 76.000000)">
+                <rect id="Rectangle-1" fill="#00AE57" x="0" y="0" width="48" height="48" rx="24"></rect>
+                <g id="tick" transform="translate(-0.000000, -0.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M35.88135,14.1738 C34.80285,13.2048 33.14385,13.2918 32.17335,14.3688 L20.52435,27.3123 L14.98035,21.7683 C13.95585,20.7438 12.29385,20.7438 11.26935,21.7683 C10.24335,22.7943 10.24335,24.4563 11.26935,25.4808 L18.76935,32.9808 C19.83285,34.0443 21.56985,33.9993 22.57635,32.8818 L36.07635,17.8818 C37.04535,16.8033 36.95835,15.1428 35.88135,14.1738" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

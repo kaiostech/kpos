@@ -118,3 +118,30 @@ button:active {
 .App-link {
   color: #61dafb;
 }
+
+.App-header h1.second, 
+.App-header h2.second,
+.App-header img.tick {
+  display: none;
+}
+
+.App-header.second h1.main,
+.App-header.second h2.main,
+.App-header.second .PriceTo,
+.App-header.second .TillID,
+.App-header.second button {
+  display: none;
+}
+
+.App-header.second h1.second,
+.App-header.second h2.second,
+.App-header.second img.tick {
+  display: block;
+}
+.App-header.second h1.second {
+  margin: 2rem 1rem 2.2rem;
+}
+
+.App-header.second .Price{
+  color: var(--7-000000);
+}
