@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100%;
+  display: flex;
 }
 
 .App-header {
@@ -111,8 +113,6 @@ button {
 
 button:active {
   background-color: var(--green-light);
-  box-shadow: 0 2px #666;
-  transform: translateY(2px);
 }
 
 .App-link {

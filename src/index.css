@@ -9,8 +9,7 @@ body,
   outline: none;
   overflow: hidden;
   font-family: 'Open Sans Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   background-color: var(--color-gs00);
   color: var(--color-gs100);
   -webkit-font-smoothing: antialiased;
