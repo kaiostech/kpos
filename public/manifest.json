@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "KaiOS POS demo",
+  "name": "KaiOS POS demo",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,22 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "kaimerchant_60.png",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "kaimerchant_180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "kaimerchant_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "kaimerchant_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
