@@ -31,6 +31,12 @@
   color: var(--7-000000);
 }
 
+.App-header h1 span{ 
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--blue-light);
+}
+
 .App-header h2 {
   width: 22rem;
   height: 1.7rem;
