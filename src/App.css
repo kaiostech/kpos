@@ -31,6 +31,10 @@
   color: var(--7-000000);
 }
 
+.App-header h1.Name {
+  text-align: left;
+}
+
 .App-header h1 span{ 
   font-size: 3rem;
   font-weight: bold;
@@ -150,4 +154,50 @@ button:active {
 
 .App-header.second .Price{
   color: var(--7-000000);
+}
+
+ul.ProviderList {
+  min-height: calc(100% - 100px);
+  min-width: 240px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.ProviderList li {
+  width: calc(100% - 2rem);
+  height: 3.8rem;
+  text-align: left;
+  margin: 1rem 0.7rem;
+  display: flex;
+}
+
+ul.ProviderList li a{
+  margin: 0.8rem 0 0.8rem 0.6rem;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-decoration: none;
+  width: fit-content;
+  color: var(--7-000000);
+}
+
+ul.ProviderList li:hover,
+ul.ProviderList li:active{
+  background-color: var(--green-primary);
+}
+
+ul.ProviderList li:hover a,
+ul.ProviderList li:active a{
+  color: var(--gs-100);
+}
+
+img.thumbnail {
+  width: 6rem;
+  height: 3.8rem;
+  object-fit: contain;
 }

@@ -5,7 +5,6 @@ import './App.css';
 import PaymentService from './Paymentservices';
 import PaymentConfirm from './Paymentconfirm';
 
-
 function App() {
   return (
     <div className="App">
