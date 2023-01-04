@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kpos/static/css/main.7124cc0c.css",
-    "main.js": "/kpos/static/js/main.0e6c2dfd.js",
+    "main.css": "/kpos/static/css/main.caf8a8d4.css",
+    "main.js": "/kpos/static/js/main.b239b421.js",
     "static/js/787.59d85d86.chunk.js": "/kpos/static/js/787.59d85d86.chunk.js",
     "static/media/ic-tick.svg": "/kpos/static/media/ic-tick.afa6cdb40b959b903e4a453a87cb050d.svg",
     "index.html": "/kpos/index.html",
-    "main.7124cc0c.css.map": "/kpos/static/css/main.7124cc0c.css.map",
-    "main.0e6c2dfd.js.map": "/kpos/static/js/main.0e6c2dfd.js.map",
+    "main.caf8a8d4.css.map": "/kpos/static/css/main.caf8a8d4.css.map",
+    "main.b239b421.js.map": "/kpos/static/js/main.b239b421.js.map",
     "787.59d85d86.chunk.js.map": "/kpos/static/js/787.59d85d86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7124cc0c.css",
-    "static/js/main.0e6c2dfd.js"
+    "static/css/main.caf8a8d4.css",
+    "static/js/main.b239b421.js"
   ]
 }
