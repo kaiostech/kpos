@@ -1,0 +1,6 @@
+div.Line {
+  width: calc(100% - 0.5rem);
+  height: 0.1rem;
+  margin: 1.3rem 0.5rem 1.4rem 0.1rem;
+  border: solid 1px #dedede;
+}

@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import tick from './ic-tick.svg';
+import StepBanner from '@components/StepBanner';
+import Divider from '@components/Divider';
 
-function Paymentconfirm () {
+import './index.css';
+
+function PaymentConfirm () {
   const [isMain, setMain] = useState(true);
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
@@ -20,17 +23,17 @@ function Paymentconfirm () {
   }
   return (
     <header className={isMain ? "App-header" : "App-header second"}>
-      <img src={tick} className="tick" alt="tick" />
-      <h1 className='main'>Confirm and Pay </h1>
-      <h1 className='second'>Payment Success</h1>
-      <h2 className='main'>PAY AMOUNT</h2>
-      <h2 className='second'>TOTAL PRICE</h2>
-      <span className={isMain ? "Price" : "Price second"}>8.99 FCFA</span>
-      <span className="PriceTo">to</span>
-      <span className="TillID">123&nbsp;456</span>
+      <StepBanner order={2} text={"Confirm and Pay"} />
+      <h5 className='Amount'>Pay Amount</h5>
+      <div className='AmountContent'>
+        <div className='Currency'>FCFA</div>
+        <div className='Price'>8.99</div>
+      </div>
+      <Divider/>
+      <Divider/>
       <button tabIndex={0} type="button" onClick={toggleClass} autoFocus> {buttonText} </button>
     </header>
   );
 }
 
-export default Paymentconfirm;
+export default PaymentConfirm;

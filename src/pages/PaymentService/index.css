@@ -1,0 +1,77 @@
+ul.ProviderList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  width: fit-content;
+}
+
+ul.ProviderList li {
+  width: 27.2rem;
+  height: 5.4rem;
+  text-align: left;
+  padding: 0.7rem 0.7rem 0.7rem 1.5rem;
+  border-radius: 8px;
+  border: solid 2px #dedede;
+  margin: 1rem 2.4rem;
+  display: flex;
+}
+
+ul.ProviderList li:hover,
+ul.ProviderList li:active{
+  border: solid 2px var(--green-light);
+}
+
+ul.ProviderList li.mtn {
+  background: url('../../mtn.png') no-repeat;
+  background-size:6.6rem 4.7rem;
+  background-position: right 7px bottom 10px;
+}
+
+ul.ProviderList li.moov {
+  background: url('../../moov.png') no-repeat;
+  background-size:6.6rem 4.7rem;
+  background-position: right 7px bottom 10px;
+}
+
+ul.ProviderList li.orange {
+  background: url('../../orange.png') no-repeat;
+  background-size:6.6rem 4.7rem;
+  background-position: right 7px bottom 10px;
+}
+
+ul.ProviderList li.celpaid {
+  background: url('../../celpaid.png') no-repeat;
+  background-size:6.6rem 4.7rem;
+  background-position: right 7px bottom 10px;
+}
+
+ul.ProviderList li.wave {
+  background: url('../../wave.png') no-repeat;
+  background-size:6.6rem 4.7rem;
+  background-position: right 7px bottom 10px;
+}
+
+ul.ProviderList li.wizal {
+  background: url('../../wizal.png') no-repeat;
+  background-size:6.6rem 4.7rem;
+  background-position: right 7px bottom 10px;
+}
+
+ul.ProviderList li.yup {
+  background: url('../../yup.png') no-repeat;
+  background-size:6.6rem 4.7rem;
+  background-position: right 7px bottom 10px;
+}
+
+ul.ProviderList li a{
+  text-decoration: none;
+  color: var(--gs-10);
+  display: flex;
+  align-items: center;
+}

@@ -2,8 +2,8 @@ import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import './App.css';
 
-import PaymentService from './Paymentservices';
-import PaymentConfirm from './Paymentconfirm';
+import PaymentService from '@pages/PaymentService'
+import PaymentConfirm from '@pages/PaymentConfirm';
 
 function App() {
   return (
