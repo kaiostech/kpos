@@ -9,10 +9,10 @@ body,
   outline: none;
   overflow: hidden;
   font-family: "Open Sans";
-  background-color: var(--color-gs00);
   color: var(--color-gs100);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ebedf4;
 }
 
 code {

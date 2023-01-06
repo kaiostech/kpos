@@ -5,11 +5,23 @@ h5.Amount {
   margin: 3.9rem 0 0 0;
 }
 
-div.AmountContent {
+div.AmountContent,
+div.MerchanetBox,
+div.PaymentBox {
   width: 100%;
   height: 3.6rem;
+}
+
+div.AmountContent {
   display: flex;
   flex-direction: row;
+}
+
+div.MerchanetBox {
+  height: 4rem;
+  background-size: 4rem 4rem;
+  background-repeat: no-repeat;
+  background-image: url('../../ic-store@2x.png');
 }
 
 div.Currency {
@@ -24,4 +36,83 @@ div.Price {
   font-size: 2.6rem;
   color: var(--gs-10);
   font-weight: bold;
+}
+
+div.m-name {
+  font-size: 1.4rem;
+  color: var(--gs-40);
+}
+
+div.m-id {
+  font-size: 1.2rem;
+  color: var(--gs-80);
+}
+
+div.m-name,
+div.m-id {
+  margin-left: 5.1rem;
+}
+
+div.PaymentBox {
+  height: 3.2rem;
+  font-size: 1.4rem;
+  color: var(--gs-40);
+  background-size: 3.2rem 3.2rem;
+  background-repeat: no-repeat;
+  background-image: url('../../action-navigation-forward@2x.png');
+  background-position: right;
+}
+
+div.p-name {
+  height: 3.2rem;
+  padding-left: 5.1rem;
+  background-size: 4rem 2.5rem;
+  background-repeat: no-repeat;
+  line-height: 3rem;
+  background-position: left;
+}
+
+div.p-name[data-code="mtn"] {
+  background-image: url('../../mtn.png');
+}
+
+div.p-name[data-code="moov"] {
+  background-image: url('../../moov.png');
+}
+
+div.p-name[data-code="orange"] {
+  background-image: url('../../orange.png');
+}
+
+div.p-name[data-code="celpaid"] {
+  background-image: url('../../celpaid.png');
+}
+
+div.p-name[data-code="wave"] {
+  background-image: url('../../wave.png');
+}
+
+div.p-name[data-code="wizal"] {
+  background-image: url('../../wizal.png');
+}
+
+div.p-name[data-code="yup"] {
+  background-image: url('../../yup.png');
+}
+
+a.button {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  width: calc(100% - 3.4rem);
+  height: 2.2rem;
+  margin: 2.15rem 0.5rem 0 0.1rem;
+  padding: 1.1rem 1.7rem;
+  border-radius: 8px;
+  background-color: var(--green-primary);
+  text-decoration: none;
+}
+
+a.button:active {
+  background-color: var(--green-light);
 }

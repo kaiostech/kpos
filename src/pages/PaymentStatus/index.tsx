@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import StepBanner from '@components/StepBanner';
 import Divider from '@components/Divider';
 import Data from '@base/payments';
-
 import './index.css';
+import tick from '@base/ic-tick.svg';
 
-function PaymentConfirm () {
+function PaymentService () {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   
@@ -21,27 +19,23 @@ function PaymentConfirm () {
       selected = item;
     }
   }
-  let baseUrl = '#/status?pid=';
+
   return (
     <header className="App-header">
-      <StepBanner order={2} text={"Confirm and Pay"} />
-      <h5 className='Amount'>Pay Amount</h5>
-      <div className='AmountContent'>
-        <div className='Currency'>FCFA</div>
-        <div className='Price'>8.99</div>
+      <div className='statusLogo'>
+        <img src={tick} alt="payment complete"/>
+      </div>
+      <h1 className='status-h1'>Payment Complete</h1>
+      <div className='StatusContent'>
+        <div className='Paid'>Paid Amount</div>
+        <div className='Amount'>8.99 FCFA</div>
       </div>
       <Divider/>
-      <div className='MerchanetBox'>
-        <div className='m-name'>Merchant Name</div>
-        <div className='m-id'>000&nbsp;123&nbsp;456</div>
-      </div>
-      <Divider/>
-      <div className='PaymentBox'>
+      <div className='PaymentBox status'>
         <div className='p-name' data-code={selected.code}>{selected.title}</div>
       </div>
-      <a href={baseUrl+selected.code} className="button"> Pay Now </a>
     </header>
   );
 }
 
-export default PaymentConfirm;
+export default PaymentService;
