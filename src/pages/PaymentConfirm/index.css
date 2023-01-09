@@ -111,6 +111,7 @@ a.button {
   border-radius: 8px;
   background-color: var(--green-primary);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a.button:active {
