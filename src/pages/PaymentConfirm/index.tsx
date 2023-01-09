@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate} from 'react-router-dom';
 import StepBanner from '@components/StepBanner';
 import Divider from '@components/Divider';
 import Data from '@base/payments';
@@ -9,6 +9,7 @@ import './index.css';
 function PaymentConfirm () {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
+  const navigate = useNavigate();
   
   const payments = Data.payments;
   let selected = {
@@ -37,7 +38,12 @@ function PaymentConfirm () {
       </div>
       <Divider/>
       <div className='PaymentBox'>
-        <div className='p-name' data-code={selected.code}>{selected.title}</div>
+        <div className='p-name' data-code={selected.code}>
+         <a href='/kpos/' className='back' onClick={(e)=>{
+          e.preventDefault();
+          navigate(-1);
+         }}> {selected.title} </a>
+        </div>
       </div>
       <a href={baseUrl+selected.code} className="button"> Pay Now </a>
     </header>
