@@ -6,15 +6,14 @@ h1.banner {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  width: 29.8rem;
+  width: 100%;
   margin: 2.7rem 0 0;
   padding: 0;
 }
 
 h1.banner span{
-  width: 17.8rem;
   height: 2.2rem;
-  margin: 0.4rem 5.8rem 0.4rem 1rem;
+  margin: 0.4rem;
   color: var(--gs-40);
 }
 

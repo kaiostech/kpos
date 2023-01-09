@@ -1,24 +1,25 @@
 ul.ProviderList {
-  margin: 0;
+  margin: 1.2rem 0 0 0;
   padding: 0;
   list-style-type: none;
   font-size: 1.6rem;
-  height: 32rem;
+  height: 31rem;
+  width: 100%;
   overflow: auto;
 }
 
 ul.ProviderList li {
-  width: 27.2rem;
+  width: calc(100% - 1.4rem - 0.4rem);
   height: 3.8rem;
   text-align: left;
-  padding: 0.7rem 0.7rem 0.7rem 1.5rem;
+  padding: 0.7rem;
   border-radius: 8px;
   border: solid 2px #dedede;
-  margin: 1rem 2.4rem;
   display: flex;
   background-size: 6.4rem 4rem;
   background-position: right 7px bottom 5px;
   background-repeat: no-repeat;
+  margin-bottom: 1rem;
 }
 
 ul.ProviderList li:hover,
@@ -59,4 +60,6 @@ ul.ProviderList li a{
   color: var(--gs-10);
   display: flex;
   align-items: center;
+  height: 100%;
+  width: 100%;
 }

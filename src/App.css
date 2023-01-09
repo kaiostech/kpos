@@ -22,7 +22,7 @@ div#root {
   font-size: calc(10px + 2vmin);
   color: rgb(24, 23, 23);
   margin: auto;
-  padding: 2.6px 10px 0px;
+  padding: 0 2.4rem;
 }
 
 .App-header h2 {
