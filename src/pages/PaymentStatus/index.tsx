@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom';
 import Divider from '@components/Divider';
 import Data from '@base/payments';
 import './index.css';
-import tick from '@base/ic-tick.svg';
+import tick from '@base/assets/ic-tick.svg';
 
 function PaymentService () {
   const location = useLocation();

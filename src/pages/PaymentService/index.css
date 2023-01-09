@@ -28,31 +28,31 @@ ul.ProviderList li:active{
 }
 
 ul.ProviderList li.mtn {
-  background-image: url('../../mtn.png');
+  background-image: url('@base/assets/mtn.png');
 }
 
 ul.ProviderList li.moov {
-  background-image: url('../../moov.png');
+  background-image: url('@base/assets/moov.png');
 }
 
 ul.ProviderList li.orange {
-  background-image: url('../../orange.png');
+  background-image: url('@base/assets/orange.png');
 }
 
 ul.ProviderList li.celpaid {
-  background-image: url('../../celpaid.png');
+  background-image: url('@base/assets/celpaid.png');
 }
 
 ul.ProviderList li.wave {
-  background-image: url('../../wave.png');
+  background-image: url('@base/assets/wave.png');
 }
 
 ul.ProviderList li.wizal {
-  background-image: url('../../wizal.png');
+  background-image: url('@base/assets/wizal.png');
 }
 
 ul.ProviderList li.yup {
-  background-image: url('../../yup.png');
+  background-image: url('@base/assets/yup.png');
 }
 
 ul.ProviderList li a{

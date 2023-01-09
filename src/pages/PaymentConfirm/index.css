@@ -21,7 +21,7 @@ div.MerchanetBox {
   height: 4rem;
   background-size: 4rem 4rem;
   background-repeat: no-repeat;
-  background-image: url('../../ic-store@2x.png');
+  background-image: url('@base/assets/ic-store@2x.png');
 }
 
 div.Currency {
@@ -69,31 +69,31 @@ div.p-name {
 }
 
 div.p-name[data-code="mtn"] {
-  background-image: url('../../mtn.png');
+  background-image: url('@base/assets/mtn.png');
 }
 
 div.p-name[data-code="moov"] {
-  background-image: url('../../moov.png');
+  background-image: url('@base/assets/moov.png');
 }
 
 div.p-name[data-code="orange"] {
-  background-image: url('../../orange.png');
+  background-image: url('@base/assets/orange.png');
 }
 
 div.p-name[data-code="celpaid"] {
-  background-image: url('../../celpaid.png');
+  background-image: url('@base/assets/celpaid.png');
 }
 
 div.p-name[data-code="wave"] {
-  background-image: url('../../wave.png');
+  background-image: url('@base/assets/wave.png');
 }
 
 div.p-name[data-code="wizal"] {
-  background-image: url('../../wizal.png');
+  background-image: url('@base/assets/wizal.png');
 }
 
 div.p-name[data-code="yup"] {
-  background-image: url('../../yup.png');
+  background-image: url('@base/assets/yup.png');
 }
 
 a.back {
@@ -101,7 +101,7 @@ a.back {
   width: 100%;
   height: 3.2rem;
   display: block;
-  background-image: url('../../action-navigation-forward@2x.png');
+  background-image: url('@base/assets/action-navigation-forward@2x.png');
   background-size: 3.2rem 3.2rem;
   background-repeat: no-repeat;
   background-position: right;
