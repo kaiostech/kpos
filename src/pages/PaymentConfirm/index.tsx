@@ -29,12 +29,12 @@ function PaymentConfirm () {
       <h5 className='Amount'>Pay Amount</h5>
       <div className='AmountContent'>
         <div className='Currency'>FCFA</div>
-        <div className='Price'>8.99</div>
+        <div className='Price'>3&nbsp;800</div>
       </div>
       <Divider/>
       <div className='MerchanetBox'>
         <div className='m-name'>Merchant Name</div>
-        <div className='m-id'>000&nbsp;123&nbsp;456</div>
+        <div className='m-id'>123&nbsp;456</div>
       </div>
       <Divider/>
       <div className='PaymentBox'>

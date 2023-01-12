@@ -55,6 +55,14 @@ ul.ProviderList li.yup {
   background-image: url('@base/assets/yup.png');
 }
 
+ul.ProviderList li.m-visa {
+  background-image: url('@base/assets/m-visa.png');
+}
+
+ul.ProviderList li.master-pass {
+  background-image: url('@base/assets/master-pass.png');
+}
+
 ul.ProviderList li a{
   text-decoration: none;
   color: var(--gs-10);

@@ -96,6 +96,14 @@ div.p-name[data-code="yup"] {
   background-image: url('@base/assets/yup.png');
 }
 
+div.p-name[data-code="m-visa"] {
+  background-image: url('@base/assets/m-visa.png');
+}
+
+div.p-name[data-code="master-pass"] {
+  background-image: url('@base/assets/master-pass.png');
+}
+
 a.back {
   text-decoration: none;
   width: 100%;

@@ -28,7 +28,7 @@ function PaymentService () {
       <h1 className='status-h1'>Payment Complete</h1>
       <div className='StatusContent'>
         <div className='Paid'>Paid Amount</div>
-        <div className='Amount'>8.99 FCFA</div>
+        <div className='Amount'>3&nbsp;800 FCFA</div>
       </div>
       <Divider/>
       <div className='PaymentBox status'>
